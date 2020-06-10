@@ -1,0 +1,3 @@
+[submodule "spotify-token-swap-service"]
+	path = spotify-token-swap-service
+	url = https://github.com/adunuthulan/spotify-token-swap-service.git
