@@ -16,6 +16,7 @@
 		6E01A75B249051ED003AEF79 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01A75A249051ED003AEF79 /* SpotifyiOS.framework */; };
 		6E01A75F24905343003AEF79 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01A75E24905343003AEF79 /* ConnectButton.swift */; };
 		6E01A7612490551E003AEF79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E01A7602490551E003AEF79 /* GoogleService-Info.plist */; };
+		6E01A76324919A48003AEF79 /* StravaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01A76224919A44003AEF79 /* StravaClient.swift */; };
 		EF2EA0A6900474C005E387AB /* Pods_Beats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3D34EFFC38C6F2FD16E2DD /* Pods_Beats.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		6E01A75A249051ED003AEF79 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		6E01A75E24905343003AEF79 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
 		6E01A7602490551E003AEF79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E01A76224919A44003AEF79 /* StravaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaClient.swift; sourceTree = "<group>"; };
 		86656CAF8362A542FD776C31 /* Pods-Beats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beats.release.xcconfig"; path = "Target Support Files/Pods-Beats/Pods-Beats.release.xcconfig"; sourceTree = "<group>"; };
 		9D3D34EFFC38C6F2FD16E2DD /* Pods_Beats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3840D6BA3370FB75277E83A /* Pods-Beats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beats.debug.xcconfig"; path = "Target Support Files/Pods-Beats/Pods-Beats.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				6E01A74B24904CC5003AEF79 /* Info.plist */,
 				6E01A75524904F4A003AEF79 /* Beats-Bridging-Header.h */,
 				6E01A75E24905343003AEF79 /* ConnectButton.swift */,
+				6E01A76224919A44003AEF79 /* StravaClient.swift */,
 			);
 			path = Beats;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E01A76324919A48003AEF79 /* StravaClient.swift in Sources */,
 				6E01A75F24905343003AEF79 /* ConnectButton.swift in Sources */,
 				6E01A73F24904CC2003AEF79 /* ViewController.swift in Sources */,
 				6E01A73B24904CC2003AEF79 /* AppDelegate.swift in Sources */,

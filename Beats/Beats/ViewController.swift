@@ -17,7 +17,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
         let configuration = SPTConfiguration(clientID: SpotifyClientID, redirectURL: SpotifyRedirectURI)
         // Set the playURI to a non-nil value so that Spotify plays music after authenticating and App Remote can connect
         // otherwise another app switch will be required
-        configuration.playURI = "spotify:track:20I6sIOMTCkB6w7ryavxtO"
+        configuration.playURI = "spotify:track:2bNCdW4rLnCTzgqUXTTDO1"
 
         // Set these url's to your backend which contains the secret to exchange for an access token
         // You can use the provided ruby script spotify_token_swap.rb for testing purposes
@@ -117,6 +117,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
         updateViewBasedOnConnected()
     }
 
+    //updates view based on changes in Remote Player state
     func update(playerState: SPTAppRemotePlayerState) {
         if lastPlayerState?.track.uri != playerState.track.uri {
             fetchArtwork(for: playerState.track)
@@ -130,6 +131,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
         }
     }
 
+    //updates the view based on connection to Spotify App
     func updateViewBasedOnConnected() {
         if (appRemote.isConnected) {
             connectButton.isHidden = true
