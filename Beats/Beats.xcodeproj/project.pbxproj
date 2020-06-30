@@ -16,7 +16,14 @@
 		6E01A75B249051ED003AEF79 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E01A75A249051ED003AEF79 /* SpotifyiOS.framework */; };
 		6E01A75F24905343003AEF79 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01A75E24905343003AEF79 /* ConnectButton.swift */; };
 		6E01A7612490551E003AEF79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E01A7602490551E003AEF79 /* GoogleService-Info.plist */; };
-		6E01A76324919A48003AEF79 /* StravaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01A76224919A44003AEF79 /* StravaClient.swift */; };
+		6E5ED96224A5783000217F97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96124A5783000217F97 /* User.swift */; };
+		6E5ED96424A57C2100217F97 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96324A57C2100217F97 /* CreateUsernameViewController.swift */; };
+		6E5ED96824A5818C00217F97 /* StartMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96724A5818C00217F97 /* StartMusicViewController.swift */; };
+		6E5ED96A24A6702100217F97 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96924A6702100217F97 /* ProfileViewController.swift */; };
+		6E5ED96C24A6734500217F97 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96B24A6734500217F97 /* MusicPlayerViewController.swift */; };
+		6E5ED96E24A7F90300217F97 /* ActivityCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED96D24A7F90200217F97 /* ActivityCollectionView.swift */; };
+		6E63C01224A1531D0076FE4F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E63C01424A1531D0076FE4F /* Login.storyboard */; };
+		6E63C01624A153700076FE4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E63C01524A153700076FE4F /* LoginViewController.swift */; };
 		EF2EA0A6900474C005E387AB /* Pods_Beats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3D34EFFC38C6F2FD16E2DD /* Pods_Beats.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +39,15 @@
 		6E01A75524904F4A003AEF79 /* Beats-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beats-Bridging-Header.h"; sourceTree = "<group>"; };
 		6E01A75A249051ED003AEF79 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		6E01A75E24905343003AEF79 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
-		6E01A7602490551E003AEF79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6E01A76224919A44003AEF79 /* StravaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaClient.swift; sourceTree = "<group>"; };
+		6E01A7602490551E003AEF79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E5ED96124A5783000217F97 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6E5ED96324A57C2100217F97 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		6E5ED96724A5818C00217F97 /* StartMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMusicViewController.swift; sourceTree = "<group>"; };
+		6E5ED96924A6702100217F97 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E5ED96B24A6734500217F97 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		6E5ED96D24A7F90200217F97 /* ActivityCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCollectionView.swift; sourceTree = "<group>"; };
+		6E63C01324A1531D0076FE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		6E63C01524A153700076FE4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		86656CAF8362A542FD776C31 /* Pods-Beats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beats.release.xcconfig"; path = "Target Support Files/Pods-Beats/Pods-Beats.release.xcconfig"; sourceTree = "<group>"; };
 		9D3D34EFFC38C6F2FD16E2DD /* Pods_Beats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3840D6BA3370FB75277E83A /* Pods-Beats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beats.debug.xcconfig"; path = "Target Support Files/Pods-Beats/Pods-Beats.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,19 +96,66 @@
 		6E01A73924904CC2003AEF79 /* Beats */ = {
 			isa = PBXGroup;
 			children = (
-				6E01A7602490551E003AEF79 /* GoogleService-Info.plist */,
 				6E01A73A24904CC2003AEF79 /* AppDelegate.swift */,
 				6E01A73C24904CC2003AEF79 /* SceneDelegate.swift */,
-				6E01A73E24904CC2003AEF79 /* ViewController.swift */,
-				6E01A74024904CC2003AEF79 /* Main.storyboard */,
+				6E5ED96024A5780000217F97 /* Models */,
+				6E63C00D24A14EAC0076FE4F /* Storyboards */,
+				6E63C00B24A14E7D0076FE4F /* Controllers */,
+				6E63C00E24A14EF60076FE4F /* Helpers */,
+				6E63C00F24A14F760076FE4F /* Supporting Files */,
 				6E01A74624904CC5003AEF79 /* Assets.xcassets */,
-				6E01A74824904CC5003AEF79 /* LaunchScreen.storyboard */,
-				6E01A74B24904CC5003AEF79 /* Info.plist */,
-				6E01A75524904F4A003AEF79 /* Beats-Bridging-Header.h */,
-				6E01A75E24905343003AEF79 /* ConnectButton.swift */,
-				6E01A76224919A44003AEF79 /* StravaClient.swift */,
 			);
 			path = Beats;
+			sourceTree = "<group>";
+		};
+		6E5ED96024A5780000217F97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E5ED96124A5783000217F97 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E63C00B24A14E7D0076FE4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E01A73E24904CC2003AEF79 /* ViewController.swift */,
+				6E63C01524A153700076FE4F /* LoginViewController.swift */,
+				6E5ED96324A57C2100217F97 /* CreateUsernameViewController.swift */,
+				6E5ED96724A5818C00217F97 /* StartMusicViewController.swift */,
+				6E5ED96924A6702100217F97 /* ProfileViewController.swift */,
+				6E5ED96B24A6734500217F97 /* MusicPlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E63C00D24A14EAC0076FE4F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6E01A74824904CC5003AEF79 /* LaunchScreen.storyboard */,
+				6E01A74024904CC2003AEF79 /* Main.storyboard */,
+				6E63C01424A1531D0076FE4F /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6E63C00E24A14EF60076FE4F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6E01A75E24905343003AEF79 /* ConnectButton.swift */,
+				6E5ED96D24A7F90200217F97 /* ActivityCollectionView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6E63C00F24A14F760076FE4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E01A75524904F4A003AEF79 /* Beats-Bridging-Header.h */,
+				6E01A74B24904CC5003AEF79 /* Info.plist */,
+				6E01A7602490551E003AEF79 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B07A55ED09E22026E2874B6B /* Frameworks */ = {
@@ -118,6 +179,7 @@
 				6E01A73424904CC1003AEF79 /* Frameworks */,
 				6E01A73524904CC1003AEF79 /* Resources */,
 				4FA4513AE6D36BE49C519BC3 /* [CP] Embed Pods Frameworks */,
+				35A4576DBD33512848F0B48B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +231,7 @@
 				6E01A74A24904CC5003AEF79 /* LaunchScreen.storyboard in Resources */,
 				6E01A7612490551E003AEF79 /* GoogleService-Info.plist in Resources */,
 				6E01A74724904CC5003AEF79 /* Assets.xcassets in Resources */,
+				6E63C01224A1531D0076FE4F /* Login.storyboard in Resources */,
 				6E01A74224904CC2003AEF79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +239,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		35A4576DBD33512848F0B48B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beats/Pods-Beats-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Beats/Pods-Beats-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Beats/Pods-Beats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4FA4513AE6D36BE49C519BC3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,11 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E01A76324919A48003AEF79 /* StravaClient.swift in Sources */,
 				6E01A75F24905343003AEF79 /* ConnectButton.swift in Sources */,
 				6E01A73F24904CC2003AEF79 /* ViewController.swift in Sources */,
+				6E5ED96224A5783000217F97 /* User.swift in Sources */,
 				6E01A73B24904CC2003AEF79 /* AppDelegate.swift in Sources */,
+				6E63C01624A153700076FE4F /* LoginViewController.swift in Sources */,
 				6E01A73D24904CC2003AEF79 /* SceneDelegate.swift in Sources */,
+				6E5ED96E24A7F90300217F97 /* ActivityCollectionView.swift in Sources */,
+				6E5ED96A24A6702100217F97 /* ProfileViewController.swift in Sources */,
+				6E5ED96C24A6734500217F97 /* MusicPlayerViewController.swift in Sources */,
+				6E5ED96424A57C2100217F97 /* CreateUsernameViewController.swift in Sources */,
+				6E5ED96824A5818C00217F97 /* StartMusicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +333,14 @@
 				6E01A74924904CC5003AEF79 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E63C01424A1531D0076FE4F /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E63C01324A1531D0076FE4F /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -377,14 +471,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Beats/Info.plist;
+				INFOPLIST_FILE = "Beats/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reverie.Beats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Beats/Beats-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beats/Supporting Files/Beats-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,14 +496,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = Beats/Info.plist;
+				INFOPLIST_FILE = "Beats/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reverie.Beats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Beats/Beats-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beats/Supporting Files/Beats-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

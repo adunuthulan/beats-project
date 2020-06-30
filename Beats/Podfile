@@ -11,11 +11,15 @@ target 'Beats' do
   pod 'Firebase/Analytics'
   # add pods for any other desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
-  #pod 'FirebaseUI/Auth', '~> 8.0'
-  #pod 'FirebaseUI/Email', '~> 8.0'
-  #pod 'FirebaseUI/Google', '~> 8.0'
-  #pod 'Firebase/Firestore'
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'	
+  pod 'FirebaseUI/Auth', '~> 8.0'
+
+  #pod 'FirebaseUI/Email', '~> 8.0'
+  pod 'FirebaseUI/Google', '~> 8.0'
+  #pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+
   pod 'Alamofire'
 
 end
